@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Raleway');
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p,
+button,
+a,
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    color: #8FC9FF;
+    text-decoration: none !important;
+}
+
+
+/*------------- Custom Nav Bar --------------*/
+
+#logo-main {
+    display: block;
+    margin: 20px auto;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-default {
+    box-shadow: none;
+}
+
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+
+#navbar-primary.navbar-default {
+    background: transparent;
+    border: none;
+}
+
+#navbar-primary.navbar-default .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar-primary.navbar-default .navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+#navbar-primary.navbar-default .navbar-nav>li>a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul.nav li.dropdown:hover>ul.dropdown-menu {
+    /*display: block;*/
+}
+
+.dropdown-menu>li>b {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: bold;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu {
+        position: absolute;
+        z-index: 1000;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: white;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 1px solid rgba(0, 0, 0, .15);
+    }
+}
+
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover>ul.dropdown-menu {
+        /*display: block;*/
+    }
+}
+
+
+/*------------- End Custom Nav Bar --------------*/
+
+
+/*------------- Home Page Biography --------------*/
+
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+.bioHeading {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media (max-width: 1024px) {
+    .bioHeading {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+/*------------- End Home Page Biography --------------*/
+
+
+/*------------- Page Fade In --------------*/
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*------------- End Page Fade In --------------*/
+
+
+/*------------- Scroll To Top --------------*/
+
+.scrollToTop {
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+.scrollToTop:hover {
+    text-decoration: none !important;
+}
+
+
+/*------------- End Scroll To Top --------------*/
+
+
+/*------------- Footer --------------*/
+
+#customFooter {
+    background-color: #333333;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+#customFooter .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+footer a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+footer .socialIcon {
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/*------------- End Footer --------------*/
+
+
+/*------------- Extra CSS --------------*/
+
+#progress {
+    text-align: center;
+    background-color: yellow;
+}
+
+#profilePic {
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+#bioInfo {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.privacyTerms {
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.privacyTerms h3 {
+    margin-top: 25px;
+}
+
+.skill-section {
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.skill-heading {
+    background-color: #333333;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skill-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 230px;
+}
+
+.about-carousel-img {
+    border-radius: 7px;
+}
+
+#about-carousel {
+    padding-top: 50px;
+}
+
+.mmucontainer a {
+    color: #333;
+}
+
+object{
+    width: 100%;
+    height: 700px;
+}
+
+/*------------- End Extra CSS --------------*/

@@ -1,0 +1,65 @@
+.workThumb {
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.workThumb2 {
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#workDesc>.row {
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.projectHR {
+    margin-top: 5px;
+}
+
+.project-butt {
+    display: block;
+    margin: 30px auto 25px;
+    border-radius: 6px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: 0;
+    background: #1394BF;
+    color: #FFF;
+    cursor: pointer;
+    outline: 0;
+}
+
+.project-butt:hover {
+    background: #0D627F;
+}
+
+#workDesc hr {
+    margin-top: 5px;
+}
+
+#workDesc h3 {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#testLogin {
+    text-align: center;
+}
