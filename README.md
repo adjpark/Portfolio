@@ -1,2 +1,2 @@
 # Portfolio
-Individual Term 4 Project
+BCIT Digital Design and Development - Term 4 Individual Project
